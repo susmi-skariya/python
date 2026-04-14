@@ -26,7 +26,6 @@
 # print(type(a))
 
 
-
 # Operator
 # a=5
 # b=5
