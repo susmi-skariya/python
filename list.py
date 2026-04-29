@@ -104,3 +104,21 @@ l1 = ['apple', 'banana']
 l2 = ['cherry', 'orange']
 combined_list = l1 + l2
 print(combined_list)
+
+
+# LIST COMPREHENSION
+
+# syntax :  [expression for item in iterable if condition]
+
+# with list
+# a=[1,2,3,4,5,6]
+# b=[i for i in a if i%2==0]
+# print(b)
+
+# a=[1,2,3,4,5,6]
+# b=[i**2 for i in a if i%2==0]
+# print(b)
+
+# with a range
+square=[i**2 for i in range(1,7)]
+print(square)
